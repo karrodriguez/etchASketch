@@ -4,13 +4,24 @@
         <meta charset="utf-8">
         <title>Etch-A-Sketch</title>
         <link rel="stylesheet" href="styles.css">
-
     </head>
 
     <body>
         <main>
-            <canvas></canvas>
+            <div id="frame">
+                <div class="logo">
+                    <span class="logo logoSpan">MAGIC</span>
+                    <span id="brandName">Etch A Sketch</span>
+                    <span id="trademark">®</span>
+                    <span class="logo logoSpan">SCREEN</span>
 
+                </div>
+                <canvas width="600" height="400"></canvas>
+
+                <div id="knobs">
+                    <div id="singleKnob"></div>
+                </div>
+            </div>
         </main>
 
         <script src="scripts.js"></script>
